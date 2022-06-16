@@ -1,15 +1,15 @@
-.clients_list {
+.clients__list {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.client_item:not(:first-child) {
+.client__list_item:not(:first-child) {
     margin-left: 30px;
     display: flex;
 }
 
-.client_link {
+.client__list_item_link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,14 +25,14 @@
         }
 }
 
-.client_icon {
+.client__list_item_icon {
     display: flex;
     justify-content: space-around;
     fill: rgba(175, 177, 184, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .client_link:hover &,
-    .client_link:focus & {
+    .client__list_item_link:hover &,
+    .client__list_item_link:focus & {
         fill: var(--accent_color);
         }
 }

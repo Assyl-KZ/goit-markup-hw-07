@@ -1,4 +1,4 @@
-.social_link_footer {
+.social_link__footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +14,8 @@
         background-color: var(--accent_color);
     }
 
-    &:hover.social_icon_footer,
-    &:focus.social_icon_footer {
+    &:hover.social_list__footer_icon,
+    &:focus.social_list__footer_icon {
         fill: var(--main_text_color_theme_light);
     }
 }
